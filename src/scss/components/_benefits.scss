@@ -1,0 +1,29 @@
+.benefits {
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		padding: 80px 0;
+	}
+	&__card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		a {
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			display: block;
+			width: 150px;
+			height: 150px;
+		}
+		p {
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 20px;
+			border: 1px solid white;
+			color: white;
+			background-color: rgba(33,69,104,0.9);
+			padding: 5px 10px;
+		}
+	}
+}

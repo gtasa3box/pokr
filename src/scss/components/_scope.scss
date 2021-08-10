@@ -1,29 +1,37 @@
-.services {
-	background-color: rgba(24,50,76,1);
+.scope {
+	background-color: #18324c;
 	color: white;
-	padding: 80px 0;
 	position: relative;
 	overflow: hidden;
 	&__content {
-		display: flex;
-	}
-	&__list {
-		width: 45%;
+		padding: 80px 0;
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 20px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__info {
+		display: flex;
+		flex-wrap: wrap;
+		width: 60%;
+	}
+	&__citizens {
+		
+	}
+	&__business {
+		padding-left: 85px;
 	}
 	&__img {
-		width: 55%;
+		width: 40%;
 		height: 100%;
-		padding-left: 90px;
 		a {
 			position: absolute;
 			display: block;
-			background-image: url(/img/services/1.jpg);
+			background-image: url(/img/scope/1.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
-			background-position: left -520px center;
+			background-position: left -452px top -40px;
 			width: 100%;
 			height: 100%;
 			top: 0;

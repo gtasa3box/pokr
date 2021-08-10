@@ -1,3 +1,15 @@
 .list {
-	
+	li {
+		position: relative;
+		margin-bottom: 10px;
+		&:before {
+			content: '';
+			position: absolute;
+			width: 6px;
+			height: 6px;
+			left: -14px;
+			top: 6px;
+			background-color: white;
+		}
+	}
 }

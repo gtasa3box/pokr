@@ -1,0 +1,31 @@
+.price {
+	.title {
+		color: rgb(24, 50, 76);
+	}
+	&__content {
+		padding: 80px 0;
+		display: flex;
+		flex-wrap: wrap;
+		color: rgb(24, 50, 76);
+		span {
+			color: #317331;
+			font-weight: bold;
+		}
+		p {
+			text-decoration: underline;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 20px;
+		}
+		h4 {
+			margin-top: 40px;
+		}
+	}
+	&__general {
+		width: 50%;
+	}
+	&__representation {
+		width: 50%;
+		padding-left: 85px;
+	}
+}

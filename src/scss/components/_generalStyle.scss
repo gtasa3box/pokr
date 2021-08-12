@@ -19,4 +19,13 @@
 
 html {
 	scroll-behavior: smooth;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.gold {
+	span {
+		background-image: linear-gradient(to right, #cb9b51 0%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 100%);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+	}
 }

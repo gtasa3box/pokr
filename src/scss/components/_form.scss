@@ -4,7 +4,7 @@
 	justify-content: space-between;
 	width: 90%;
 	input {
-		background: rgb(33, 69, 104);
+		background: rgba(33, 69, 104, 0.75);
 		padding: 14px 20px;
 		color: #fff;
 		border: none;
@@ -13,11 +13,11 @@
 		font-size: 16px;
 		line-height: 20px;
 		&:hover {
-			background: rgb(24, 50, 76);
+			background: rgba(24, 50, 76, 0.75);
 		}
 		&:focus {
-			background:#rgb(24, 50, 76);
-			outline: 2px dashed rgb(24, 50, 76);
+			background: rgba(24, 50, 76, 0.75);
+			outline: 2px dashed rgba(24, 50, 76, 0.85);
 		}
 		&::-moz-placeholder {
 			color: white; 
@@ -37,7 +37,7 @@
 		padding: 14px 20px;
 		resize: none;
 		height: 84px;
-		background: rgb(33, 69, 104);
+		background: rgba(33, 69, 104, 0.75);
 		color: #fff;
 		outline: none;
 		font-weight: 600;
@@ -45,11 +45,11 @@
 		line-height: 20px;
 		margin-top: 10px;
 		&:hover {
-			background: rgb(24, 50, 76);
+			background: rgba(24, 50, 76, 0.75);
 		}
 		&:focus {
-			background:rgb(24, 50, 76);
-			outline: 2px dashed rgb(24, 50, 76);
+			background:rgba(24, 50, 76, 0.75);
+			outline: 2px dashed rgba(24, 50, 76, 0.85);
 		}
 		&::-moz-placeholder {
 			color: white; 

@@ -8,6 +8,9 @@
 	-webkit-animation: city 30s linear infinite;
 	background-size: cover;
 	background-position: center;
+	@media screen and (max-width: 499px) {
+		background-attachment: scroll;
+	}
 	@keyframes city {
 		0% { 
 			background-position: -80px 100%, 0 0;
@@ -37,6 +40,9 @@
 		height: 100%;
 		pointer-events: none;
 		background: linear-gradient(90deg, rgba(33,69,104,0) 0%, rgba(24,50,76,0.8099614845938375) 10%, rgba(24,50,76,0.7959558823529411) 100%);
+		@media screen and (max-width: 499px) {
+			background: linear-gradient(90deg, rgba(24,50,76,0.8099614845938375) 0%, rgba(24,50,76,0.7959558823529411) 100%);
+		}
 	}
 	&__content {
 		position: relative;

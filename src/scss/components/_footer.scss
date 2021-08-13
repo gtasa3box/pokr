@@ -1,6 +1,9 @@
 .footer {
 	background: linear-gradient(90deg, #122435 0%, rgba(33,69,104,1) 100%, rgba(255,255,255,0) 100%);
 	padding: 10px 0;
+	@media screen and (max-width: 890px) {
+		padding: 15px 0;
+	}
 	&__content {
 		display: flex;
 		align-items: center;
@@ -9,8 +12,36 @@
 		font-weight: 600;
 		font-size: 16px;
 		line-height: 16px;
+		@media screen and (max-width: 890px) {
+			flex-wrap: wrap;
+		}
 		a {
 			color: white;
+		}
+	}
+	&__phone {
+		@media screen and (max-width: 890px) {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+	}
+	&__logo {
+		@media screen and (max-width: 890px) {
+			display: none;
+		}
+	}
+	&__adress {
+		@media screen and (max-width: 890px) {
+			width: 100%;
+			text-align: center;
+			margin: 10px 0;
+		}
+	}
+	&__email {
+		@media screen and (max-width: 890px) {
+			width: 100%;
+			text-align: center;
 		}
 	}
 }

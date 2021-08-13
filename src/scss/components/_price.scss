@@ -7,6 +7,9 @@
 		display: flex;
 		flex-wrap: wrap;
 		color: rgb(24, 50, 76);
+		@media screen and (max-width: 650px) {
+			padding: 40px 0;
+		}
 		span {
 			color: #317331;
 			font-weight: bold;
@@ -23,9 +26,19 @@
 	}
 	&__general {
 		width: 50%;
+		@media screen and (max-width: 650px) {
+			width: 100%;
+		}
 	}
 	&__representation {
 		width: 50%;
 		padding-left: 85px;
+		@media screen and (max-width: 785px) {
+			padding-left: 20px;
+		}
+		@media screen and (max-width: 650px) {
+			width: 100%;
+			padding-left: 0;
+		}
 	}
 }

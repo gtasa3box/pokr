@@ -3,6 +3,15 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 90%;
+	@media screen and (max-width: 760px) {
+		width: 70%;
+	}
+	@media screen and (max-width: 650px) {
+		width: 90%;
+	}
+	@media screen and (max-width: 650px) {
+		width: 100%;
+	}
 	input {
 		background: rgba(33, 69, 104, 0.75);
 		padding: 14px 20px;
@@ -28,9 +37,16 @@
 	}
 	&__name {
 		width: 49%;
+		@media screen and (max-width: 500px) {
+			width: 100%;
+			margin-bottom: 10px;
+		}
 	}
 	&__tel {
 		width: 49%;
+		@media screen and (max-width: 500px) {
+			width: 100%;
+		}
 	}
 	&__text {
 		width: 100%;

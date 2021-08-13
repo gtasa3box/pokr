@@ -5,6 +5,7 @@
 	-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 	-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+	overflow: visible;
 	&__wrapper {
 		display: flex;
 		align-items: center;
@@ -12,23 +13,56 @@
 		padding: 10px 0;
 		max-width: 1290px;
 		margin: 0 auto;
+		@media screen and (max-width: 1290px) {
+			padding: 10px 20px;
+		}
+		@media screen and (max-width: 400px) {
+			padding: 10px 15px;
+		}
+	}
+	&__burger {
+		display: block;
+		width: 29px;
+		height: 29px;
+		cursor: pointer;
+		position: relative;
+		@media screen and (min-width: 780px) {
+			display: none;
+		}
+		order: 1;
 	}
 	&__nav {
 		width: 65%;
 		display: flex;
 		justify-content: center;
+		@media screen and (max-width: 780px) {
+			display: none;
+		}
+		@media screen and (min-width: 780px) {
+			display: flex !important;
+		}
+		@media screen and (max-width: 780px) {
+			width: 100%;
+			border-top: 1px solid white;
+		}
 	}
 	&__logo {
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
 		width: 15%;
+		@media screen and (max-width: 780px) {
+			width: auto;
+		}
 		p {
 			margin-left: 5px;
 			color: white;
 			font-weight: 500;
 			font-size: 13px;
 			line-height: 15px;
+			@media screen and (max-width: 890px) {
+				display: none;
+			}
 		}
 	}
 	&__phone {
@@ -41,6 +75,9 @@
 		font-weight: 600;
 		font-size: 14px;
 		line-height: 15px;
+		@media screen and (max-width: 780px) {
+			width: auto;
+		}
 		&:hover {
 			opacity: 1;
 		}

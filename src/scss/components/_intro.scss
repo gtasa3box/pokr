@@ -55,7 +55,7 @@
 		}
 	}
 	&__title {
-		font-size: 42px;
+		font-size: 36px;
 		@media screen and (max-width: 720px) {
 			font-size: 35px;
 		}
@@ -66,8 +66,8 @@
 	&__text {
 		max-width: 820px;
 		font-weight: 400;
-		font-size: 25px;
-		line-height: 32px;
+		font-size: 23px;
+		line-height: 26px;
 		@media screen and (max-width: 720px) {
 			font-size: 18px;
 			line-height: 25px;

@@ -2,7 +2,7 @@
 	background: linear-gradient(90deg, #122435 0%, rgba(33,69,104,1) 100%, rgba(255,255,255,0) 100%);
 	padding: 10px 0;
 	@media screen and (max-width: 890px) {
-		padding: 15px 0;
+		padding: 20px 0;
 	}
 	&__content {
 		display: flex;
@@ -35,7 +35,8 @@
 		@media screen and (max-width: 890px) {
 			width: 100%;
 			text-align: center;
-			margin: 10px 0;
+			font-size: 14px;
+			margin: 20px 0;
 		}
 	}
 	&__email {

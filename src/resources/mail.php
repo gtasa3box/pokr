@@ -2,9 +2,6 @@
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-var_dump($_POST);
-var_dump($_GET);
-
 //Script Foreach
 $c = true;
 if ( $method === 'POST' ) {
@@ -37,7 +34,7 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 'From: '.adopt($project_name).' <'.$admin_email.'>' . PHP_EOL .
 'Reply-To: '.$admin_email.'' . PHP_EOL;
 
- mail($admin_email, adopt($form_subject), $message, $headers );
+mail($admin_email, adopt($form_subject), $message, $headers );
 
- header('Location: http://'.$_SERVER['HTTP_HOST'].'/');
+header('Location: http://'.$_SERVER['HTTP_HOST'].'/');
 exit;

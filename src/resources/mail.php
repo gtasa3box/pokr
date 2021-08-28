@@ -5,7 +5,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 //Script Foreach
 $c = true;
 if ( $method === 'POST' ) {
-	$admin_email = 'gtasa3box@gmail.com';
+	$admin_email = 'arbitrage152@gmail.com';
 	$form_subject = 'Arbitrage52';
 	$name = trim($_POST["name"]);
 	$number  = trim($_POST["number"]);

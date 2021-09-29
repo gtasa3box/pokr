@@ -7,9 +7,9 @@ $c = true;
 if ( $method === 'POST' ) {
 	$admin_email = 'arbitrage152@gmail.com';
 	$form_subject = 'Arbitrage52';
-	$name = trim($_POST["name"]);
-	$number  = trim($_POST["number"]);
-	$text = trim($_POST["text"]);
+	$name = htmlspecialchars(trim($_POST["name"]), ENT_QUOTES);
+	$number  = htmlspecialchars(trim($_POST["number"]), ENT_QUOTES);
+	$text = htmlspecialchars(trim($_POST["text"]), ENT_QUOTES);
 
 	foreach ( $_POST as $key => $value ) {
 		if ( $value != "") {

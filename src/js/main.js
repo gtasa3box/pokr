@@ -4,6 +4,13 @@
   * @param {number} first - первое число
   * @returns {number}
   */
+ 
+//lazy-load
+$(function() {
+    $('.lazy').lazy();
+});
+
+
 window.onload= function() {
       document.getElementById('burgerlink').onclick = function() {
       toogleclass(this);
@@ -30,14 +37,3 @@ else {
     click_burger.classList.add('active');
 }
 };
-
-//lazy-load
-$(function() {
-    $('.lazy').lazy();
-});
-
-//phone mask
-
-$(document).ready(function() {
-    $('input[name="number"]').mask("+7 (999) 999-9999");
-});

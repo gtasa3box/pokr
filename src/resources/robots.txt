@@ -1,0 +1,41 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /search/
+Disallow: */?s=
+Disallow: *sort=
+Disallow: *view=
+Disallow: *utm=
+Disallow: /?matchtype=
+Disallow: /?calltouch_tm=
+
+User-agent: GoogleBot
+Disallow: /admin/
+Disallow: /search/
+Disallow: */?s=
+Disallow: *sort=
+Disallow: *view=
+Disallow: *utm=
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+Disallow: /?matchtype=
+Disallow: /?calltouch_tm=
+
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /search/
+Disallow: */?s=
+Disallow: *sort=
+Disallow: *view=
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+Disallow: /?matchtype=
+Disallow: /?calltouch_tm=
+Clean-Param: utm_source&utm_medium&utm_campaign
+
+https://arbitrage52.ru/sitemap.xml

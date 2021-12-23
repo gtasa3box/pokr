@@ -1,0 +1,8 @@
+# Редирект с http на https создан автоматически при заказе бесплатного ssl-сертификата
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+RewriteCond %{HTTP_HOST} ^www.arbitrage52.ru$ [NC]
+RewriteRule ^(.*)$ http://arbitrage52.ru/$1 [R=301,L]
+# Конец редиректа
+

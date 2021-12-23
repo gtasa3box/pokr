@@ -11,6 +11,9 @@
 	@media screen and (max-width: 499px) {
 		background-attachment: scroll;
 	}
+	@media (max-width: 720px) {
+		background-image: url(../img/intro/1-mob.jpg);
+	}
 	@keyframes city {
 		0% { 
 			background-position: -80px 100%, 0 0;
